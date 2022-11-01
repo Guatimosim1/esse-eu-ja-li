@@ -1,0 +1,44 @@
+<div id="imagem">
+    <img src={{usuario.img}} alt={{usuario.user}} width="250px">
+    <div id="nome">
+        {{usuario.user | uppercase}}
+    </div>
+</div>
+
+<div id="opcoes">
+    <span class="alterar" (click)="mudar(1)"> Alterar Imagem de Perfil</span>
+    <span class="alterar" (click)="mudar(2)"> Mudar Senha </span>
+    <span class="alterar" (click)="mudar(3)"> Ver Minhas Conquistas</span>
+</div>
+
+<div class="a" *ngIf="opcao == 1">
+    <span class="X" (click)="mudar(0)"><span>&times;</span></span>
+    <div id="divisor">Avatares Disponíveis:</div>
+    <div>
+        <span class="img_s" *ngFor="let img of selecoes" (click)="selecionarImagem(img.nome)"><img src={{img.endereco}} width="60px"/></span>
+    </div>
+</div>
+
+<div class="a" *ngIf="opcao == 2">
+    <span class="X" (click)="mudar(0)"><span>&times;</span></span>
+    <div>
+        <input type="password" placeholder="Digite uma nova senha" size="63px"/><br>
+        <input type="password" placeholder="Repita a nova senha digitada" size="63px"/><br>
+        <div></div>
+        <span class="alterar" (click)="alterarSenha()">Aplicar Alteração</span>
+    </div>
+</div>
+
+<div class="a" *ngIf="opcao == 3">
+    <span class="X" (click)="mudar(0)"><span>&times;</span></span>
+    <div class="b">
+        Total de Pontos: {{usuario.pontos}} &#10032;<br>
+        Troféus conquistados:<br>
+        <span class={{trofeu.class}} *ngFor="let trofeu of usuario.trofeus"><img src={{trofeu.img}} width="20px"/> {{trofeu.nome}}</span><br>
+        Livros Lidos:<br>
+
+        <div class="livro" *ngFor="let livro of usuario.livros_lidos" (click)="selecionarLivro(livro.id)">
+            {{livro.nome}} - {{livro.categoria}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div id="ex">
+    <div>
+        Usuário: <input class="input" type="text" placeholder="Digite seu nome de usuário"/>
+        Senha: <input class="input" type="password" placeholder="Digite sua senha"/>
+    </div>
+    <div class="espacamento"></div>
+    <div>
+        <span class="el_login" (click)="Login()">Fazer Login</span> ou <span class="el_login">Esqueci minha senha</span>
+    </div>
+    <div class="espacamento"></div>
+    <div *ngIf="err">
+        Usuário ou Senha foram digitados de maneira errada. Caso ainda não possui cadastro, clique no
+        botão "Cria Conta" acima, ou clique em "Esqueci minha senha"
+    </div>
+</div>

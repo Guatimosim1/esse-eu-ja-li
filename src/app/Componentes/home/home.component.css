@@ -1,0 +1,16 @@
+#div1{
+    text-align: center;
+}
+
+#div2{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#div2 p{
+    text-align: justify;
+}
+
+.a{
+    color: aqua;
+}

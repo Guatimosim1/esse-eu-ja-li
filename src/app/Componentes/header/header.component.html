@@ -1,0 +1,9 @@
+<div id="toolbar">
+    <span class="el_tb" (click)="mudarRota('/home')"><img src="../../../assets/Imagens/pagina-inicial.png" width="20px"/> Página Inicial </span>
+    <span class="el_tb" (click)="mudarRota('/livros')"><img src="../../../assets/Imagens/pilha-de-livros.png" width="20px"/> Lista de Livros</span>
+    <span class="el_tb" (click)="mudarRota('/perfil')" *ngIf="userLogado"><img src="../../../assets/Imagens/user.png" width="20px"/> Meu Perfil</span>
+    <span class="el_tb" (click)="mudarRota('/ranking')"><img src="../../../assets/Imagens/ranking.png" width="20px"/> Ranking</span>
+    <span class="el_tb" *ngIf="!userLogado" (click)="mudarRota('/cadastrar')"><img src="../../../assets/Imagens/content.png" width="20px"/> Criar Conta</span>
+    <span class="el_tb" *ngIf="!userLogado" (click)="mudarRota('/login')"><img src="../../../assets/Imagens/key.png" width="20px"/> Entrar</span>
+    <span class="el_tb" *ngIf="userLogado" (click)="mudarRota('/logout')"><img src="../../../assets/Imagens/sair.png" width="20px"/> Sair</span>
+</div>

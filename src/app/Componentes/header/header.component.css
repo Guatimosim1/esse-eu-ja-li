@@ -1,0 +1,21 @@
+#toolbar{
+    text-align: center;
+    background-color:rgb(53, 0, 103);
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-top:10px
+}
+
+.el_tb{
+    border: 2px solid black;
+    background-color: aqua;
+    border-radius: 5px;
+    color: blueviolet;
+    margin:3px;
+}
+
+.el_tb:hover{
+    background-color: blueviolet;
+    color: aqua;
+    cursor: pointer;
+}

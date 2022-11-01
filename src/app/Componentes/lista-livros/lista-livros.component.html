@@ -1,0 +1,45 @@
+<div class="a" *ngIf="!cadastrando && !editando">
+    <input id="pesquisa" type="text" size="100px" placeholder="Digite, aqui, qual livro deseja pesquisar. Caso queira procurar livros lidos ou não lidos, deixe esse campo vazio."/><br>
+    Pesquisar por: <select>
+        <option>Selecione uma opção</option>
+        <option selected>Nome do Livro</option>
+        <option>Nome do Autor</option>
+    </select>
+    <input id="lidos" type="checkbox" checked/> Lidos <input id="nao_lidos" type="checkbox" checked/> Não lidos<br> <br>
+    <span class="botao" (click)="pesquisar()"><img src="../../../assets/Imagens/search.png" width="20px"/> Pesquisar</span> <span class="esp"></span> <span class="botao" *ngIf="autenticar()" (click)="cadastrar()"><img src="../../../assets/Imagens/magic-wand.png" width="20px"/>Cadastrar Novo Livro</span>
+</div>
+
+<div class="b" *ngIf="cadastrando">
+    <div>
+        <input class="pesquisa c" size="60px" placeholder="Digite o nome do novo livro"/><br>
+        <input class="pesquisa c" size="60px" placeholder="Digite o nome do autor"/><br>
+        <input class="pesquisa c" size="60px" placeholder="Digite a categoria do livro"/><br>
+        <input class="pesquica c" size="60px" placeholder="Digite a URL da imagem do livro"/><br>
+        <input class="pesquisa c" size="60px" type="number" placeholder="Quantidade de páginas"/><br>
+        <textarea class="pesquisa c" size="60px" placeholder="Digite o resumo" cols="56.5" rows="20"></textarea><br>
+        <span class="botao" (click)="cadastrar()">&#8678; Voltar</span> <span class="esp"></span> <span class="botao" (click)="cadastrarLivro()">Cadastrar Livro</span>
+    </div>
+</div>
+
+<div class="a" *ngIf="!cadastrando && !editando">
+    <div class="livro" *ngFor="let livro of listaLivros">
+        <div class="opcoes"><span (click)="ver(livro)"><img src="../../../assets/Imagens/olho.png" width="25px"/></span> <span *ngIf="autenticar()" (click)="editarSelLivro(livro)"><img src="../../../assets/Imagens/editar.png" width="25px"/></span> <span *ngIf="autenticar()" (click)="excluir(livro)"><img src="../../../assets/Imagens/excluir.png" width="25px"/></span></div>
+        Nome: {{livro.nome}}<br>
+        Autor: {{livro.autor}}<br>
+        Resumo: <p>{{livro.resumo}}</p><br>
+        Categoria: {{livro.categoria}}<br>
+        Páginas: {{livro.paginas}}
+    </div>
+</div>
+
+<div class="b" *ngIf="editando">
+    <div>
+        <input id = "nome" class="pesquisa c" size="60px" placeholder="Digite o nome do novo livro" value={{livrosEditando[0]}}/><br>
+        <input id = "autor" class="pesquisa c" size="60px" placeholder="Digite o nome do autor" value={{livrosEditando[1]}}/><br>
+        <input id = "categoria" class="pesquisa c" size="60px" placeholder="Digite a categoria do livro" value={{livrosEditando[2]}}/><br>
+        <input id = "img" class="pesquica c" size="60px" placeholder="Digite a URL da imagem do livro" value={{livrosEditando[3]}}/><br>
+        <input id = "paginas" class="pesquisa c" size="60px" type="number" placeholder="Quantidade de páginas" value={{livrosEditando[4]}}/><br>
+        <textarea id = "resumo" class="pesquisa c" size="60px" placeholder="Digite o resumo" cols="56.5" rows="20">{{livrosEditando[5]}}</textarea><br>
+        <span class="botao" (click)="editar()">&#8678; Voltar</span> <span class="esp"></span> <span class="botao" (click)="editarLivro()">Editar Livro</span>
+    </div>
+</div>

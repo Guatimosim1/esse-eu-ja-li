@@ -1,0 +1,42 @@
+#ex{
+    background-color: darkslateblue;
+    color:aqua;
+    margin-top: 50px;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding-top: 30px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.espacamento{
+    padding-top: 30px;
+}
+
+.input{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+    color:blueviolet;
+    padding-right: 5px;
+}
+
+
+.el_login{
+    padding-left: 5px;
+    background-color: rgb(53, 0, 103);
+    color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.el_login:hover{
+    padding-left: 5px;
+    background-color: aqua;
+    color: rgb(53, 0, 103);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}

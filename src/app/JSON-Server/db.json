@@ -1,0 +1,152 @@
+{
+  "usuario_atual": {
+    "id": -1,
+    "user": "Visitante",
+    "img": "",
+    "senha": "",
+    "pontos": -1,
+    "trofeus": [],
+    "livros_lidos": []
+  },
+  "usuarios": [
+    {
+      "id": 0,
+      "user": "admin",
+      "img": "../assets/Imagens/Perfil/avatar.png",
+      "senha": "admin123",
+      "pontos": 1,
+      "trofeus": [],
+      "livros_lidos": [
+        {
+          "id": 1,
+          "nome": "Análise Real",
+          "autor": "Elon Lages Lima",
+          "categoria": "Matemática",
+          "img": "https://m.media-amazon.com/images/I/41jX5nf2dvL.jpg",
+          "resumo": "",
+          "paginas": 198
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user": "joao",
+      "img": "../assets/Imagens/Perfil/user.png",
+      "senha": "123456",
+      "pontos": 9,
+      "trofeus": [],
+      "livros_lidos": [
+        {
+          "id": 0,
+          "nome": "O símbolo perdido",
+          "autor": "Dan Brown",
+          "categoria": "Mistério",
+          "img": "https://m.media-amazon.com/images/I/91vgurdy2LL.jpg",
+          "resumo": "Chamado por seu amigo Peter Solomon para dar uma palestra em Washington, Robert Langdon viaja até a capital americana, mas ao entrar no palco para iniciar a palestra descobre que tudo aquilo foi uma forma de atraí-lo até ali para iniciar uma busca por um antigo portal místico que tornaria possível a Apoteose. Robert vê-se então forçado a colaborar com Mal`akh, vilão que esquematiza todos os passos de Langdon para que este decifre e revele o segredo da Pirâmide Maçônica, para que assim Mal`akh tenha acesso ao poder prerrogado pela lenda dos Antigos Mistérios. No desenrolar da trama Robert recebe ajuda de Katherine Solomon, irmã de Peter que está sendo mantido refém pelo vilão da história. Katherine é uma pesquisadora de um novo ramo da ciência, a Noética. Juntos vão decifrando os segredos escondidos na Pirâmide e se aproximando cada vez mais do grande Símbolo Perdido, palavra que quando entendida daria ao homem um poder sobre-humano.",
+          "paginas": 489
+        },
+        {
+          "id": 1,
+          "nome": "Análise Real",
+          "autor": "Elon Lages Lima",
+          "categoria": "Matemática",
+          "img": "https://m.media-amazon.com/images/I/41jX5nf2dvL.jpg",
+          "resumo": "",
+          "paginas": 198
+        },
+        {
+          "nome": "Data Science do Zero",
+          "autor": "Joel Grus",
+          "categoria": "Estatística",
+          "img": "",
+          "resumo": "As bibliotecas, estruturas, módulos e kits de ferramentas do data science são ótimas para desempenhá-lo mas, também, são uma ótima forma  de mergular na disciplina sem ter, de fato, que entender data science. Neste livro, você aprenderá como os algoritmos e as ferramentas mais essenciais de data science funcionam ao implementá-los do zero.",
+          "paginas": 315,
+          "id": 2
+        },
+        {
+          "nome": "Introdução a Teoria dos Números",
+          "autor": "José Plínio de Oliveira Santos",
+          "categoria": "Matemática",
+          "img": "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_47fda9eb4565187dff8b4f826685c5fec61621d8.jpg",
+          "resumo": "",
+          "paginas": 198,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "user": "henrique",
+      "img": "../assets/Imagens/Perfil/user.png",
+      "senha": "1",
+      "pontos": 0,
+      "trofeus": [],
+      "livros_lidos": [],
+      "id": 2
+    }
+  ],
+  "livros": [
+    {
+      "id": 0,
+      "nome": "O símbolo perdido",
+      "autor": "Dan Brown",
+      "categoria": "Mistério",
+      "img": "https://m.media-amazon.com/images/I/91vgurdy2LL.jpg",
+      "resumo": "Chamado por seu amigo Peter Solomon para dar uma palestra em Washington, Robert Langdon viaja até a capital americana, mas ao entrar no palco para iniciar a palestra descobre que tudo aquilo foi uma forma de atraí-lo até ali para iniciar uma busca por um antigo portal místico que tornaria possível a Apoteose. Robert vê-se então forçado a colaborar com Mal`akh, vilão que esquematiza todos os passos de Langdon para que este decifre e revele o segredo da Pirâmide Maçônica, para que assim Mal`akh tenha acesso ao poder prerrogado pela lenda dos Antigos Mistérios. No desenrolar da trama Robert recebe ajuda de Katherine Solomon, irmã de Peter que está sendo mantido refém pelo vilão da história. Katherine é uma pesquisadora de um novo ramo da ciência, a Noética. Juntos vão decifrando os segredos escondidos na Pirâmide e se aproximando cada vez mais do grande Símbolo Perdido, palavra que quando entendida daria ao homem um poder sobre-humano.",
+      "paginas": 489
+    },
+    {
+      "id": 1,
+      "nome": "Análise Real",
+      "autor": "Elon Lages Lima",
+      "categoria": "Matemática",
+      "img": "https://m.media-amazon.com/images/I/41jX5nf2dvL.jpg",
+      "resumo": "",
+      "paginas": 198
+    },
+    {
+      "nome": "Data Science do Zero",
+      "autor": "Joel Grus",
+      "categoria": "Estatística",
+      "img": "",
+      "resumo": "As bibliotecas, estruturas, módulos e kits de ferramentas do data science são ótimas para desempenhá-lo mas, também, são uma ótima forma  de mergular na disciplina sem ter, de fato, que entender data science. Neste livro, você aprenderá como os algoritmos e as ferramentas mais essenciais de data science funcionam ao implementá-los do zero.",
+      "paginas": 315,
+      "id": 2
+    },
+    {
+      "nome": "Introdução a Teoria dos Números",
+      "autor": "José Plínio de Oliveira Santos",
+      "categoria": "Matemática",
+      "img": "https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_47fda9eb4565187dff8b4f826685c5fec61621d8.jpg",
+      "resumo": "",
+      "paginas": 198,
+      "id": 4
+    },
+    {
+      "nome": "Geometria Diferencial de Curvas e Superfícies",
+      "autor": "Manfredo Perdigão do Carmo",
+      "categoria": "Matemática",
+      "img": "https://loja.sbm.org.br/media/catalog/product/cache/b986d5592b1dcfc7d5b7d57a6da9c9c9/c/t/ctu_04_capa_loja_virtual.png",
+      "resumo": "Esta versão consiste na tradução do seu livro publicado originalmente em inglês pela editora americana Prentice-Hall. O texto é um dos mais usados neste campo. Ele  introduz à geometria diferencial de curvas e superfícies em seus aspectos local e global. A apresentação é feita com um uso mais extenso da álgebra linear elementar e com certo destaque para os fatos geométricos básicos em vez de cálculos mecânicos ou detalhes aleatórios.\n\nO primeiro capítulo é dedicado às curvas. O segundo é desenvolvido com base no conceito de superfície regular em Rn, considerado pelo autor o melhor modelo, se bem apresentado, para o estudo das variedades diferenciáveis. Os demais capítulos mostram a aplicação normal de Gauss, a geometria intrínseca das superfícies em torno do conceito de derivada e trazem uma grande quantidade de geometria local das superfícies em R3. A  edição é atualizada em relação as demais e vem com um conjunto de notas.",
+      "paginas": 620,
+      "id": 5
+    },
+    {
+      "nome": "A Course in the Theory of Groups",
+      "autor": "Derek J.S. Robinson",
+      "categoria": "Matemática",
+      "img": "https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4419-8594-1",
+      "resumo": "A Course in the Theory of Groups is a comprehensive introduction to the theory of groups - finite and infinite, commutative and non-commutative. Presupposing only a basic knowledge of modern algebra, it introduces the reader to the different branches of group theory and to its principal accomplishments. While stressing the unity of group theory, the book also draws attention to connections with other areas of algebra such as ring theory and homological algebra.\nThis new edition has been updated at various points, some proofs have been improved, and lastly about thirty additional exercises are included. There are three main additions to the book. In the chapter on group extensions an exposition of Schreier's concrete approach via factor sets is given before the introduction of covering groups. This seems to be desirable on pedagogical grounds. Then S. Thomas's elegant proof of the automorphism tower theorem is included in the section on complete groups. Finally an elementary counterexample to the Burnside problem due to N.D. Gupta has been added in the chapter on finiteness properties.",
+      "paginas": 499,
+      "id": 6
+    },
+    {
+      "nome": "Algebra : A Graduate Course",
+      "autor": "Martin Isaacs",
+      "categoria": "Matemática",
+      "img": "https://books.google.com.br/books/content?id=5tKq0kbHuc4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73dghgsUBLG4iamkEQN4R7roVjrfQ_fvwblHvYmqp_8rDVxTIVaWuwpCmofSxymITppV2iaWrDKQRNvTE7SsprO8-4Jqgt0yZBkrqb5C5SGwd-Mdho4TIkP3afIa1V9P2sGfQ-B",
+      "resumo": "This book, based on a first-year graduate course the author taught at the University of Wisconsin, contains more than enough material for a two semester graduate-level abstract algebra course, including groups, rings and modules, fields and Galois theory, an introduction to algebraic number theory, and the rudiments of algebraic geometry. In addition, there are some more specialized topics not usually covered in such a course. These include transfer and character theory of finite groups, modules over artinian rings, modules over Dedekind domains, and transcendental field extensions.\nThis book could be used for self study as well as for a course text, and so full details of almost all proofs are included, with nothing being relegated to the Chapter-end problems. There are, however, hundreds of problems, many being far from trivial. The book attempts to capture some of the informality of the classroom, as well as the excitement the author felt when taking the corresponding course as a student.",
+      "paginas": 516,
+      "id": 7
+    }
+  ]
+}

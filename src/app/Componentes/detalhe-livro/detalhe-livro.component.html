@@ -1,0 +1,24 @@
+<div class="fake"></div>
+<div class="ex center">
+    <h1> {{livroAtual.nome}} </h1>
+</div>
+
+<div class="ex center blueviolet">
+    <div><img src={{livroAtual.img}} width="400px"/></div>
+    <div id="fake"></div>
+</div>
+
+<div class="ex center">
+    <span *ngIf="!lido" class="marcar" (click)="marcar_desmarcar()">Marcar Como Lido</span>
+    <span *ngIf="lido" class="desmarcar" (click)="marcar_desmarcar()">Desmarcar Como Lido</span>
+</div>
+
+<div class="fake"></div>
+
+<div class="ex blueviolet">
+    <div class="sep">Quantidade de Páginas: {{livroAtual.paginas}} <span class="esp"></span> Categoria: {{livroAtual.categoria}}</div>
+    <div id="resumo">
+        Resumo:
+        <p> {{livroAtual.resumo}} </p>
+    </div>
+</div>

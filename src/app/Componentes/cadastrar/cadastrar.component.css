@@ -1,0 +1,37 @@
+#ex{
+    background-color: darkslateblue;
+    color:aqua;
+    margin-top: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#cadastrar{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 3px;
+}
+
+#cadastrar:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+    color: rgb(53, 0, 103);
+    padding: 3px;
+    cursor: pointer;
+}
+
+#esp{
+    padding: 10px;
+}
+
+.input{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+    color:blueviolet;
+    padding-top: 5px;
+}

@@ -1,0 +1,81 @@
+p{
+    text-align: justify;
+}
+
+#resumo{
+    margin-top: 10px;
+    border-top: 1px dashed black;
+}
+
+.fake{
+    margin-top: 10px;
+}
+
+.ex{
+    background-color: darkslateblue;
+    color: aqua;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 6px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.center{
+    text-align: center;
+}
+
+.blueviolet{
+    background-color: blueviolet;
+}
+
+.ex h1{
+    color: red;
+    text-shadow: green 0.1em 0.1em 0.1em;
+}
+
+.marcar{
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    background-color: green;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.marcar:hover{
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    background-color: red;
+    padding-left: 100px;
+    padding-right: 100px;
+    cursor:pointer;
+}
+
+.desmarcar{
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    background-color:red;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.desmarcar:hover{
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    background-color: green;
+    padding-left: 100px;
+    padding-right: 100px;
+    cursor: pointer;
+}
+
+.sep{
+    padding-right: 30px;
+    color:white;
+    background-color: rgb(90, 70, 47);
+    border-radius: 10px;
+}
+
+.esp{
+    padding-left: 297px;
+}
