@@ -54,9 +54,9 @@ export class DetalheLivroComponent implements OnInit {
     let pontos = Math.trunc((this.livroAtual.paginas)/100)
     
     if(this.lido){
-      return (-1)*pontos;
+      return (-1)*pontos - 1;
     }else{
-      return pontos;
+      return pontos + 1;
     }
   }
 
